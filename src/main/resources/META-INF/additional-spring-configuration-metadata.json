@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "vems.app.mail",
+    "type": "java.lang.String",
+    "description": "A description for 'vems.app.mail'"
+  },
+  {
+    "name": "vems.app.weburl",
+    "type": "java.lang.String",
+    "description": "A description for 'vems.app.weburl'"
+  }
+]}

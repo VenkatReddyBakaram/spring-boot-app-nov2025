@@ -1,0 +1,29 @@
+2025-05-02T09:24:35.075+05:30  INFO 23176 --- [spring-boot-app] [main] c.vtechstorms.SpringBootAppApplication   : Starting SpringBootAppApplication using Java 23.0.1 with PID 23176 (C:\VenkatReddyB\workspaces\spring-boot-workspace\spring-boot-app\target\classes started by Venkat R Bakaram in C:\VenkatReddyB\workspaces\spring-boot-workspace\spring-boot-app)
+2025-05-02T09:24:35.086+05:30  INFO 23176 --- [spring-boot-app] [main] c.vtechstorms.SpringBootAppApplication   : The following 1 profile is active: "dev"
+2025-05-02T09:24:36.914+05:30  INFO 23176 --- [spring-boot-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-05-02T09:24:36.937+05:30  INFO 23176 --- [spring-boot-app] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-02T09:24:36.938+05:30  INFO 23176 --- [spring-boot-app] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02T09:24:37.319+05:30  INFO 23176 --- [spring-boot-app] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-05-02T09:24:37.336+05:30  INFO 23176 --- [spring-boot-app] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-02T09:24:37.337+05:30  INFO 23176 --- [spring-boot-app] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2133 ms
+2025-05-02T09:24:37.992+05:30  INFO 23176 --- [spring-boot-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-05-02T09:24:38.004+05:30  INFO 23176 --- [spring-boot-app] [main] c.vtechstorms.SpringBootAppApplication   : Started SpringBootAppApplication in 3.737 seconds (process running for 5.114)
+2025-05-02T09:24:55.626+05:30  INFO 23176 --- [spring-boot-app] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-02T09:24:55.628+05:30  INFO 23176 --- [spring-boot-app] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-02T09:24:55.636+05:30  INFO 23176 --- [spring-boot-app] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-02T09:26:33.631+05:30  INFO 23176 --- [spring-boot-app] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-02T09:26:33.636+05:30  INFO 23176 --- [spring-boot-app] [RMI TCP Connection(10)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-02T09:26:33.668+05:30  INFO 23176 --- [spring-boot-app] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-02T09:26:37.605+05:30  INFO 14552 --- [spring-boot-app] [main] c.vtechstorms.SpringBootAppApplication   : Starting SpringBootAppApplication using Java 23.0.1 with PID 14552 (C:\VenkatReddyB\workspaces\spring-boot-workspace\spring-boot-app\target\classes started by Venkat R Bakaram in C:\VenkatReddyB\workspaces\spring-boot-workspace\spring-boot-app)
+2025-05-02T09:26:37.607+05:30  INFO 14552 --- [spring-boot-app] [main] c.vtechstorms.SpringBootAppApplication   : The following 1 profile is active: "dev"
+2025-05-02T09:26:39.468+05:30  INFO 14552 --- [spring-boot-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-05-02T09:26:39.496+05:30  INFO 14552 --- [spring-boot-app] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-02T09:26:39.497+05:30  INFO 14552 --- [spring-boot-app] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02T09:26:39.932+05:30  INFO 14552 --- [spring-boot-app] [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-05-02T09:26:39.951+05:30  INFO 14552 --- [spring-boot-app] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-02T09:26:39.952+05:30  INFO 14552 --- [spring-boot-app] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2226 ms
+2025-05-02T09:26:40.761+05:30  INFO 14552 --- [spring-boot-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-05-02T09:26:40.776+05:30  INFO 14552 --- [spring-boot-app] [main] c.vtechstorms.SpringBootAppApplication   : Started SpringBootAppApplication in 4.001 seconds (process running for 5.447)
+2025-05-02T09:26:44.182+05:30  INFO 14552 --- [spring-boot-app] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-02T09:26:44.183+05:30  INFO 14552 --- [spring-boot-app] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-02T09:26:44.185+05:30  INFO 14552 --- [spring-boot-app] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
