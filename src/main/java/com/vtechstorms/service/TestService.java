@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 import com.vtechstorms.beans.BeanComponent;
 import com.vtechstorms.beans.BeanComponent2;
-import com.vtechstorms.beans.LazyBean;
 import com.vtechstorms.repository.TestRepository;
 
 import jakarta.annotation.Resource;
@@ -35,9 +34,11 @@ public class TestService {
 	@Resource(name = "english")
 	private Message message;
 
-	@Autowired
-	private LazyBean lazyBean;
-
+	/*
+	 * @Autowired private LazyBean lazyBean;
+	 */
+	
+	
 	// @Autowired
 	@Inject
 	private BeanComponent beanComponent;

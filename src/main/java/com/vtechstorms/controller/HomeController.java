@@ -1,8 +1,11 @@
 package com.vtechstorms.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.vtechstorms.dtos.StudentDto;
 
 @Controller
 @RequestMapping("/home")
@@ -18,7 +21,7 @@ public class HomeController {
 	public String message() {
 		return "<center><b><h1>Welcome To Web Application Developement</h1></b></center>";
 	}
-	
+
 	@RequestMapping("/home")
 	public String home() {
 		return "home";
@@ -28,11 +31,22 @@ public class HomeController {
 	public String login() {
 		return "login";
 	}
-	
+
 	@RequestMapping("/signup")
 	public String signup() {
 		return "signup";
 	}
 
+	@GetMapping("/testWebService")
+	@ResponseBody
+
+	public StudentDto testWebService() {
+		StudentDto studentDto = new StudentDto();
+		studentDto.setEmail("testEmail@email.com");
+		studentDto.setPhoneNumber("984794355");
+		studentDto.setStudName("John");
+		return studentDto;
+
+	}
 
 }

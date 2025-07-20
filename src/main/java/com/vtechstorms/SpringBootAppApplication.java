@@ -1,20 +1,14 @@
 package com.vtechstorms;
 
+import com.vtech.TestComponent1;
+import com.vtechstorms.beans.*;
+import com.vtechstorms.service.MyService;
+import com.vtechstorms.service.TestService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-
-import com.vtech.TestComponent1;
-import com.vtechstorms.beans.Address;
-import com.vtechstorms.beans.BeanComponent2;
-import com.vtechstorms.beans.Employee;
-import com.vtechstorms.beans.ProtoTypeBean;
-import com.vtechstorms.beans.SingletonBean;
-import com.vtechstorms.beans.TestBean;
-import com.vtechstorms.beans.TestComponent;
-import com.vtechstorms.service.TestService;
 
 @SpringBootApplication
 @ComponentScan(basePackages = { "com.vtech", "com.vtechstorms" })
@@ -27,6 +21,9 @@ public class SpringBootAppApplication {
 		/*
 		 * TestBean testBean = new TestBean(); testBean.testBean();
 		 */
+
+		MyService myService = context.getBean(MyService.class);
+		myService.testMyService();
 
 		TestBean testBean = context.getBean(TestBean.class); // type casting is not required
 		testBean.testBean();
